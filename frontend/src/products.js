@@ -43,7 +43,7 @@ const products = [
       brand: "GameMaster",
       category: "Electronics",
       price: 69.99,
-      countInStock: 60,
+      countInStock: 0,
       rating: 3,
       numReviews: 11
     },
