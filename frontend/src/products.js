@@ -9,7 +9,7 @@ const products = [
       price: 49.99,
       countInStock: 100,
       rating: 4.5,
-      numReviews: 120
+      numReviews: 10
     },
     {
       _id: '2',
@@ -21,7 +21,7 @@ const products = [
       price: 149.99,
       countInStock: 50,
       rating: 4.8,
-      numReviews: 80
+      numReviews: 12
     },
     {
       _id: '3',
@@ -33,7 +33,7 @@ const products = [
       price: 79.99,
       countInStock: 80,
       rating: 4.3,
-      numReviews: 95
+      numReviews: 15
     },
     {
       _id: '4',
@@ -44,8 +44,8 @@ const products = [
       category: "Electronics",
       price: 69.99,
       countInStock: 60,
-      rating: 4.6,
-      numReviews: 110
+      rating: 3,
+      numReviews: 11
     },
     {
       _id: '5',
@@ -57,7 +57,7 @@ const products = [
       price: 29.99,
       countInStock: 120,
       rating: 4.9,
-      numReviews: 150
+      numReviews: 15
     },
     {
         _id: '6',
@@ -69,7 +69,7 @@ const products = [
         price: 39.99,
         countInStock: 70,
         rating: 9.9,
-        numReviews: 130
+        numReviews: 18
       }
   ];
 
