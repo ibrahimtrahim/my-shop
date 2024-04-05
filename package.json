@@ -1,0 +1,30 @@
+{
+  "name": "my-shop",
+  "version": "1.0.0",
+  "description": "my shop app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "server": "nodemon backend/index.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimtrahim/my-shop.git"
+  },
+  "author": "brahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimtrahim/my-shop/issues"
+  },
+  "homepage": "https://github.com/ibrahimtrahim/my-shop#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
