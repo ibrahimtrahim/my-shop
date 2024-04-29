@@ -1,6 +1,5 @@
 const products = [
     {
-      _id: '1',
       name: "Wireless Bluetooth Earbuds",
       image: "/images/1001.jpg",
       description: "True wireless earbuds with Bluetooth connectivity.",
@@ -12,7 +11,6 @@ const products = [
       numReviews: 10
     },
     {
-      _id: '2',
       name: "Smartwatch Series 5",
       image: "/images/1002.jpg",
       description: "Stay connected with this stylish smartwatch.",
@@ -24,7 +22,6 @@ const products = [
       numReviews: 12
     },
     {
-      _id: '3',
       name: "Portable Bluetooth Speaker",
       image: "/images/1003.jpg",
       description: "Enjoy high-quality sound on the go.",
@@ -36,7 +33,6 @@ const products = [
       numReviews: 15
     },
     {
-      _id: '4',
       name: "Wireless Gaming Mouse",
       image: "/images/1004.jpg",
       description: "Ergonomic mouse for professional gamers.",
@@ -48,7 +44,6 @@ const products = [
       numReviews: 11
     },
     {
-      _id: '5',
       name: "Stainless Steel Water Bottle",
       image: "/images/1005.jpg",
       description: "Keeps your drinks hot or cold for hours.",
@@ -60,7 +55,6 @@ const products = [
       numReviews: 15
     },
     {
-        _id: '6',
         name: "Water Bottle",
         image: "/images/1006.jpg",
         description: "Keeps your drinks hot or cold for hours.",
