@@ -10,7 +10,7 @@
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder.js",
-    "data:destro": "node backend/seeder.js -d"
+    "data:destroy": "node backend/seeder.js -d"
   },
   "repository": {
     "type": "git",
